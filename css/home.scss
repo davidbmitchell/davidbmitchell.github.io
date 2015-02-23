@@ -1,0 +1,173 @@
+---
+
+---
+$mainColor: #83c6fe;
+$secondaryColor: #4af2a1;
+$offWhite: #f7f9f9;
+$default_color: white;
+$primary_color: #3498db;
+$success_color: #2ecc71;
+$info_color: #81cfe0;
+$warning_color: #f39c12;
+$danger_color: #c0392b;
+$black: black;
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+}
+
+@mixin heading-font($brand) {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+@mixin background-size($size) {
+  -o-background-image: $size;
+  -webkit-background-size: $size;
+  -moz-background-size: $size;
+  background-size: $size;
+}
+
+@mixin translateX($translate) {
+  -moz-transform: translateX($translate);
+  -ms-transform: translateX($translate);
+  -webkit-transform: translateX($translate);
+  transform: translateX($translate);
+}
+
+@mixin translateY($translate) {
+  -moz-transform: translateY($translate);
+  -ms-transform: translateY($translate);
+  -webkit-transform: translateY($translate);
+  transform: translateY($translate);
+}
+
+
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.hero {
+  background-image: url("/assets/images/swirl_pattern.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  .hero-content.container {
+    padding-bottom: 5%;
+    text-align: center;
+    span.brand {
+      font-family: "Raleway", sans-serif;
+      font-size: 40px;
+      font-weight: 900;
+    }
+    span.sub-brand {
+      font-family: "Raleway", sans-serif;
+      display: block;
+      font-size: 30px;
+    }
+    #top {
+      font-size: 10px;
+      font-family: "Raleway", sans-serif;
+      .gradient-mask-text {
+        font-size: 1.4em;
+        line-height: 1.4em;
+        padding-left: 20%;
+        padding-top: 2%;
+        background: transparent;
+        /*background: url("http://newevolutiondesigns.com/images/freebies/polygon-wallpaper-14.jpg") */
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #0dc1a0), color-stop(100%, #1e61c5));
+        background: -webkit-linear-gradient(-45deg, #0dc1a0 0%, #1e61c5 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+      &:after {
+        display: block;
+        content: "";
+        left: 50%;
+        margin: 0 auto;
+        width: 252px;
+        height: 1px;
+        background: #6bb6ee;
+      }
+      &:before {
+        display: block;
+        content: "";
+        width: 400px;
+        margin: 0 auto;
+        height: 1px;
+        top: 0;
+        background: #6bb6ee;
+        background: -moz-linear-gradient(-45deg, #6bb6ee 0%, #8a92b8 100%);
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #6bb6ee), color-stop(100%, #8a92b8));
+        background: -webkit-linear-gradient(-45deg, #6bb6ee 0%, #8a92b8 100%);
+        background: -o-linear-gradient(-45deg, #6bb6ee 0%, #8a92b8 100%);
+        background: -ms-linear-gradient(-45deg, #6bb6ee 0%, #8a92b8 100%);
+        background: linear-gradient(135deg, #6bb6ee 0%, #8a92b8 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6bb6ee', endColorstr='#8a92b8',GradientType=1 );
+      }
+      &:after {
+        background: #9389aa;
+        background: -moz-linear-gradient(-45deg, #9389aa 0%, #b5606d 100%);
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #9389aa), color-stop(100%, #b5606d));
+        background: -webkit-linear-gradient(-45deg, #9389aa 0%, #b5606d 100%);
+        background: -o-linear-gradient(-45deg, #9389aa 0%, #b5606d 100%);
+        background: -ms-linear-gradient(-45deg, #9389aa 0%, #b5606d 100%);
+        background: linear-gradient(135deg, #9389aa 0%, #b5606d 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9389aa', endColorstr='#b5606d',GradientType=1 );
+      }
+    }
+    #links {
+      padding: 2%;
+      .button {
+        display: inline-block;
+        max-width: 20%;
+        border: 8px solid $offWhite;
+        padding: 15px 15px 15px 15px;
+        background: $mainColor;
+        color: $offWhite;
+        font-size: 2em;
+        font-weight: 500;
+        text-decoration: none;
+        &:hover {
+          border: 8px solid $mainColor;
+          background: $offWhite;
+          @include transition(all 2s ease);
+          color: $secondaryColor;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
