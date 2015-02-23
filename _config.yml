@@ -14,3 +14,9 @@ url: "http://davidbmitchell.github.io" # the base hostname & protocol for your s
 # Build settings
 markdown: kramdown
 highlighter: pygments
+
+# Google Analytics
+analytics :
+  provider : google
+  google :
+    tracking_id : 'UA-59994586-1'

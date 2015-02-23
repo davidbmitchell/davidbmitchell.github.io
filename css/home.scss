@@ -1,6 +1,9 @@
 ---
 
 ---
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+
 $mainColor: #83c6fe;
 $secondaryColor: #4af2a1;
 $offWhite: #f7f9f9;
@@ -60,20 +63,18 @@ body {
 }
 
 .hero {
-  background-image: url("/assets/images/swirl_pattern.png");
+  background: $mainColor;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   position: relative;
+  font-family: 'Raleway', sans-serif;
+  color: $offWhite;
   .hero-content.container {
     padding-bottom: 5%;
     text-align: center;
-    span.brand {
-      font-family: "Raleway", sans-serif;
-      font-size: 40px;
-      font-weight: 900;
-    }
+
     span.sub-brand {
       font-family: "Raleway", sans-serif;
       display: block;
@@ -85,16 +86,10 @@ body {
       .gradient-mask-text {
         font-size: 1.4em;
         line-height: 1.4em;
-        padding-left: 20%;
+        padding-left: 15%;
         padding-top: 2%;
-        background: transparent;
-        /*background: url("http://newevolutiondesigns.com/images/freebies/polygon-wallpaper-14.jpg") */
-        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #0dc1a0), color-stop(100%, #1e61c5));
-        background: -webkit-linear-gradient(-45deg, #0dc1a0 0%, #1e61c5 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
+        font-weight: 500;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
       }
       &:after {
         display: block;
@@ -112,24 +107,10 @@ body {
         margin: 0 auto;
         height: 1px;
         top: 0;
-        background: #6bb6ee;
-        background: -moz-linear-gradient(-45deg, #6bb6ee 0%, #8a92b8 100%);
-        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #6bb6ee), color-stop(100%, #8a92b8));
-        background: -webkit-linear-gradient(-45deg, #6bb6ee 0%, #8a92b8 100%);
-        background: -o-linear-gradient(-45deg, #6bb6ee 0%, #8a92b8 100%);
-        background: -ms-linear-gradient(-45deg, #6bb6ee 0%, #8a92b8 100%);
-        background: linear-gradient(135deg, #6bb6ee 0%, #8a92b8 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6bb6ee', endColorstr='#8a92b8',GradientType=1 );
+        background: $secondaryColor;
       }
       &:after {
-        background: #9389aa;
-        background: -moz-linear-gradient(-45deg, #9389aa 0%, #b5606d 100%);
-        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #9389aa), color-stop(100%, #b5606d));
-        background: -webkit-linear-gradient(-45deg, #9389aa 0%, #b5606d 100%);
-        background: -o-linear-gradient(-45deg, #9389aa 0%, #b5606d 100%);
-        background: -ms-linear-gradient(-45deg, #9389aa 0%, #b5606d 100%);
-        background: linear-gradient(135deg, #9389aa 0%, #b5606d 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9389aa', endColorstr='#b5606d',GradientType=1 );
+        background: $secondaryColor;
       }
     }
     #links {
@@ -155,6 +136,29 @@ body {
   }
 }
 
+.brand{
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  background: $mainColor;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  color: $offWhite;
+
+  span.fat{
+    font-weight: 900;
+
+  }
+
+  span.medium{
+    font-weight: 500;
+
+  }
+
+  span.skinny{
+    font-weight: 100;
+  }
+}
+
 
 
 
@@ -166,8 +170,8 @@ body {
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
