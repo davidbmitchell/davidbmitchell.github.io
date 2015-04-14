@@ -1,0 +1,12 @@
+name: 'David B. Mitchell'
+permalink: /post/:title
+feedurl: http://davidbmitchell.github.io
+exclude: [terminal.glue]
+highlighter: pygments
+markdown: kramdown
+relative_permalinks: true
+
+paginate: 10
+paginate_path: '/blog/:num/'
+
+excerpt_separator: "\n\n\n"

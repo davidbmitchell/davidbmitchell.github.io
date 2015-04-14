@@ -1,0 +1,40 @@
+#layout, h1,h2,h3,h4{
+  font-family: 'Raleway'
+}
+.photo-box{
+  display: inline-block;
+
+  #profile_pic{
+    margin-left: 30%;
+    margin-top: 1em;
+  }
+}
+
+.text-box{
+  display: inline-block;
+}
+
+.about-heading{
+  font-family: 'Raleway';
+  font-weight: 100;
+  font-size: 40px;
+  text-align: center;
+}
+
+#UM{
+  height: 120px;
+  width: 80px;
+}
+
+.about-subheading{
+  margin-left: 20%;
+}
+
+#subjects{
+  margin-left: 10%;
+}
+
+.skill{
+  display: inline-block;
+  text-align: center;
+}

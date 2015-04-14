@@ -1,0 +1,52 @@
+html,body{
+  height: 100%;
+}
+
+.splash-container {
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  background-color: $secondaryColor;
+  color:#eee;
+  overflow:hidden;
+}
+
+.head {
+  font-size: 120px;
+  color: white;
+  padding: 0;
+  font-weight: 100;
+  line-height: .3em;
+  text-align: center;
+}
+
+.subhead{
+  padding: 0;
+  font-size: 60px;
+  color: white;
+  line-height: .3;
+  text-align: center;
+  font-weight: 300;
+}
+
+.links{
+  text-align: center;
+}
+
+.link{
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 2px solid white;
+
+}
+/*.splash{
+    width: 80%;
+    height: 50%;
+    margin: 5%;
+    position: absolute;
+    text-align: center;
+    border: 1px solid white;
+}
+*/

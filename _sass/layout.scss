@@ -1,0 +1,60 @@
+#layout, #main{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Raleway';
+
+}
+
+#nav .pure-menu {
+    background: transparent;
+    border: none;
+    text-align: center;
+}
+
+.header {
+  background: $mainColor;
+  border: 2px solid $offWhite;
+}
+
+.btn{
+      padding: 15px;
+
+}
+
+.btn:hover{
+    background: $secondaryColor;
+    background-size: 100% 100%;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.pure-menu-heading {
+    border-bottom: none;
+    font-size: 25px;
+    border-right: 2px solid $offWhite;
+
+
+  span.fat{
+    font-weight: 900;
+    color: $offWhite;
+  }
+
+  span.medium{
+    font-weight: 500;
+    color: $offWhite;
+  }
+
+  span.skinny{
+    font-weight: 100;
+    color: $offWhite;
+  }
+}
+
+/* Posts */
