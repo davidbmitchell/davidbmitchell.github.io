@@ -25,6 +25,7 @@
 .btn:hover{
     background: $secondaryColor;
     background-size: 100% 100%;
+    @include transition(all 2s ease);
 }
 
 .btn a{
