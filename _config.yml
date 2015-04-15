@@ -1,7 +1,4 @@
-name: 'David B. Mitchell'
 permalink: /post/:title
-production_url: http://davidbaileymitchell.com
-description: 'Baseball, Economics, Life, Game Theory, and Baseball All in One Place.'
 exclude: [terminal.glue]
 highlighter: pygments
 markdown: kramdown
@@ -11,3 +8,10 @@ paginate: 10
 paginate_path: '/blog/:num/'
 
 excerpt_separator: "\n\n\n"
+
+name: 'David B. Mitchell'
+domain: davidbaileymitchell.com
+url: http://davidbaileymitchell.com
+description: 'Baseball, Economics, Life, Game Theory, and Baseball All in One Place.'
+author:
+  name: David B. Mitchell
