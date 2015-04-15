@@ -12,7 +12,6 @@ html,body{
 }
 
 .head {
-  font-size: 120px;
   color: white;
   padding: 0;
   font-weight: 100;
@@ -23,7 +22,6 @@ html,body{
 
 .subhead{
   padding: 0;
-  font-size: 60px;
   color: white;
   line-height: .3;
   text-align: center;
@@ -51,3 +49,27 @@ html,body{
     border: 1px solid white;
 }
 */
+
+$break-small: 500px;
+$break-large: 900px;
+
+.head {
+    font-size: 80px;
+  @media screen and (max-width: $break-small) {
+    font-size: 40px;
+  }
+  @media screen and (min-width: $break-large) {
+      font-size: 120px;
+  }
+}
+
+
+.subhead {
+    font-size: 40px;
+  @media screen and (max-width: $break-small) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: $break-large) {
+      font-size: 60px;
+  }
+}

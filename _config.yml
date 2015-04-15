@@ -1,6 +1,7 @@
 name: 'David B. Mitchell'
 permalink: /post/:title
-feedurl: http://davidbmitchell.github.io
+production_url: http://davidbaileymitchell.com
+description: 'Baseball, Economics, Life, Game Theory, and Baseball All in One Place.'
 exclude: [terminal.glue]
 highlighter: pygments
 markdown: kramdown
