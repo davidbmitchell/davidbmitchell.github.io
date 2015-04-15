@@ -1,15 +1,14 @@
 ---
 layout: default
-body_class: default-body
 ---
 
 {% assign post = page %}
 
-<article>
-    <header id="post-header">
+<div id="layout">
+    <div id="post-header">
         <h1 id="post-title">{{ post.title }}</h1>
         <h4 id="post-subtitle"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></h4>
-    </header>
+    </div>
 
     <div id="post-content">
         {{ content }}
@@ -55,4 +54,4 @@ body_class: default-body
 
         <p id="post-meta">Posted {{ category_content }}{{ tags_content }}</p>
     </div>
-</article>
+</div>
