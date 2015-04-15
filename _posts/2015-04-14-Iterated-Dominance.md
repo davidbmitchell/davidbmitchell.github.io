@@ -1,8 +1,8 @@
 ---
 title: An Example of Iteration of Strictly Dominated Strategies
 layout: post
-category: economics
-tags: [game theory]
+category: Economics
+tags: [Game Theory]
 ---
 
 Suppose we have a game that has two players, Player 1 and Player 2.
