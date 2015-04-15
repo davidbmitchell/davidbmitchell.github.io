@@ -61,3 +61,35 @@
     color: $secondaryColor;
   }
 }
+
+#profile_pic{
+
+   @media screen and (max-width: 500px) {
+    height: 140px;
+    width: 100px;
+  }
+  @media screen and (min-width: 700px) {
+    height: 260px;
+    width: 170px;
+  }
+}
+
+.info{
+     font-size: 15px;
+  @media screen and (max-width: 560px) {
+    font-size: 13px;
+  }
+  @media screen and (min-width: 800px) {
+      font-size: 20px;
+  }
+}
+
+.about-heading{
+     font-size: 30px;
+  @media screen and (max-width: 560px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 800px) {
+      font-size: 40px;
+  }
+}
