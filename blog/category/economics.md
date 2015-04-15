@@ -1,6 +1,6 @@
 ---
 layout: blog_by_category
-title: 'Articles by category: economics'
-category: economics
-permalink: economics/
+title: 'Posts by category: Economics'
+category: Economics
+permalink: Economics/
 ---

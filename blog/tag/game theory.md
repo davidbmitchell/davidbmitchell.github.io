@@ -1,6 +1,6 @@
 ---
 layout: blog_by_tag
-title: 'Articles by tag: game theory'
-tag: game theory
-permalink: game theory/
+title: 'Posts by tag: Game Theory'
+tag: Game Theory
+permalink: Game Theory/
 ---

@@ -1,7 +1,11 @@
-- slug: programming
+- slug: Programming
   name: Programming 
   color: '#1abc9c'
 
-- slug: economics
+- slug: Economics
   name: Economics
   color: '#6638F0'  
+
+- slug: MLB
+  name: MLB
+  color: '#0EA5F1'
