@@ -9,7 +9,7 @@ paginate_path: '/blog/:num/'
 
 excerpt_separator: "\n\n\n"
 
-name: 'David B. Mitchell'
+name: 'David Bailey Mitchell'
 domain: davidbaileymitchell.com
 url: http://davidbaileymitchell.com
 description: 'Baseball, Economics, Life, Game Theory, and Baseball All in One Place.'
