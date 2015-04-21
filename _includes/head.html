@@ -1,6 +1,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta property="og:type" content="website">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   <meta name="robots" content="index, follow">
