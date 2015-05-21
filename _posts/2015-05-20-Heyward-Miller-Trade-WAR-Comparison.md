@@ -14,7 +14,7 @@ One of the biggest moves this offseason was when Jason Heyward and Jordan Walden
 
 So far, my gut feeling has been right with Jason Heyward's struggles so far this season. Walden has been good for the Cardinals, but is currently expected to miss 6-10 weeks with a muscle strain in his shoulder. As much as Heyward has struggled thus far, Shelby Miller has thrived. In his last start, Miller was one out away from a masterful no-hitter against the Miami Marlins. Now that we have that out of the way, let's look at how the three different implementations of WAR say about the trade.
 
-<table>
+<table style="margin: 0px auto;">
   <tr>
     <th>Player</th>
     <th>openWAR</th>
