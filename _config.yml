@@ -1,17 +1,16 @@
-permalink: /post/:title
-exclude: [terminal.glue]
+author: 
+  github_link: "https://github.com/davidbmitchell"
+  name: "David B. Mitchell"
+description: "Personal website of David B. Mitchell"
+domain: davidbaileymitchell.com
+excerpt_separator: "\n\n\n"
+exclude: 
+  - terminal.glue
 highlighter: pygments
 markdown: kramdown
-relative_permalinks: true
-
+name: "David Bailey Mitchell"
 paginate: 10
-paginate_path: '/blog/:num/'
-
-excerpt_separator: "\n\n\n"
-
-name: 'David Bailey Mitchell'
-domain: davidbaileymitchell.com
-url: https://davidbaileymitchell.com
-description: 'Personal website of David B. Mitchell'
-  name: David B. Mitchell
-  github_link: https://github.com/davidbmitchell
+paginate_path: "/blog/:num/"
+permalink: "/post/:title"
+relative_permalinks: true
+url: "https://davidbaileymitchell.com"
