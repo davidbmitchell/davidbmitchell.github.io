@@ -19,8 +19,12 @@ replacement level are relievers.
 The table below compares how the players for the Atlanta Braves have done with 
 regards to Wins Above Replacement. Baseball-Reference.com WAR is denoted by bWAR, 
 FanGraphs.com WAR by fWAR, and the open-source version of WAR (openWAR) that 
-uses R and the MLB Gameday API is denoted by oWAR. bWAR and oWAR include games 
-up to June 9th and fWAR contains games up to June 10th. Also, the table is sortable.
+uses R and the MLB Gameday API is denoted by oWAR. The repository for openWAR can
+be found on [GitHub](https://github.com/beanumber/openWAR). The academic 
+paper written by the creators Ben Baumer and Gregory Matthews, which explains openWAR 
+better than I am able to, can be found [here](http://arxiv.org/pdf/1312.7158v3.pdf).
+bWAR and oWAR include games up to June 9th and fWAR contains games up to 
+June 10th. Also, the table is sortable.
 
 <table class="sortable" style="margin: 0px auto;">
     <tr>
