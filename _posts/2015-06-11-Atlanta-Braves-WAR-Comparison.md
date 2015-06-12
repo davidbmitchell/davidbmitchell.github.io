@@ -11,8 +11,8 @@ led a lot of the pundits (including myself) to conclude the Braves were going to
 struggle mightily this season. So far we wrong as the Braves sit at 29-30 and just 
 2.0 games back as of June 10. Their record would undoubtably be better if their 
 relievers had not blown a few games this year. This is evident by the fact their 
-relief pitching ranks 29th in RA/G (4.41), and that in the table listing WAR values 
-below shows that most of the Braves' players that have been performing below 
+relief pitching ranks 29th in RA/G (4.41), and in the table listing WAR values 
+below shows most of the Braves' players which have been performing below 
 replacement level are relievers.
 
 # The Comparison
@@ -300,8 +300,9 @@ oWAR <- getWAR(ds$openWAR)
 {% endhighlight %}
 
 Next, we can download the data from Baseball-Reference using the getrWAR() 
-function from the openWARData package, the [getfWAR()](/assets/getfWAR.R) 
-function I wrote. Also, let's go on and download playerID map from [Crunch Time Baseball](http://crunchtimebaseball.com).
+function from the openWARData package. To get the FanGraphs WAR we can use 
+the [getfWAR()](/assets/getfWAR.R) function I wrote. 
+Also, let's go on and download playerID map from [Crunch Time Baseball](http://crunchtimebaseball.com).
 {% highlight r %}
 rWAR <- getrWAR()
 fWAR <- getfWAR(2015)
