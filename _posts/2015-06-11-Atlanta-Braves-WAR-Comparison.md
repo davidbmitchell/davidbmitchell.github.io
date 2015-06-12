@@ -5,10 +5,22 @@ category: MLB
 tags: [Atlanta Braves, openWAR, R]
 ---
 
-The Atlanta Braves have had an interesting season to say the least. Coming into this year they traded away many of their best performers from last season. This led a lot of the pundits (including myself) to conclude the Braves were going to struggle mightily this season. So far we wrong as the Braves sit at 29-30 and just 2.0 games back as of June 10. Their record would undoubtably be better if their relievers had not blown a few games this year. This is evident by the fact their relief pitching ranks 29th in RA/G (4.41), and that in the table listing WAR values below shows that most of the Braves' players that have been performing below replacement level are relievers.
+The Atlanta Braves have had an interesting season to say the least. Coming into 
+this year they traded away many of their best performers from last season. This 
+led a lot of the pundits (including myself) to conclude the Braves were going to 
+struggle mightily this season. So far we wrong as the Braves sit at 29-30 and just 
+2.0 games back as of June 10. Their record would undoubtably be better if their 
+relievers had not blown a few games this year. This is evident by the fact their 
+relief pitching ranks 29th in RA/G (4.41), and that in the table listing WAR values 
+below shows that most of the Braves' players that have been performing below 
+replacement level are relievers.
 
 # The Comparison
-The table below compares how the players for the Atlanta Braves have done with regards to Wins Above Replacement. Baseball-Reference.com WAR is denoted by bWAR, FanGraphs.com WAR by fWAR, and the open-source version of WAR (openWAR) that uses R and the MLB Gameday API is denoted by oWAR. bWAR and oWAR include games up to June 9th and fWAR contains games up to June 10th. Also, the table is sortable.
+The table below compares how the players for the Atlanta Braves have done with 
+regards to Wins Above Replacement. Baseball-Reference.com WAR is denoted by bWAR, 
+FanGraphs.com WAR by fWAR, and the open-source version of WAR (openWAR) that 
+uses R and the MLB Gameday API is denoted by oWAR. bWAR and oWAR include games 
+up to June 9th and fWAR contains games up to June 10th. Also, the table is sortable.
 
 <table class="sortable" style="margin: 0px auto;">
     <tr>
