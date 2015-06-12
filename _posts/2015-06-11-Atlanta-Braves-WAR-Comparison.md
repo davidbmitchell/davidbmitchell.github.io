@@ -9,6 +9,7 @@ The Atlanta Braves have had an interesting season to say the least. Coming into 
 
 # The Comparison
 The table below compares how the players for the Atlanta Braves have done with regards to Wins Above Replacement. Baseball-Reference.com WAR is denoted by bWAR, FanGraphs.com WAR by fWAR, and the open-source version of WAR (openWAR) that uses R and the MLB Gameday API is denoted by oWAR. bWAR and oWAR include games up to June 9th and fWAR contains games up to June 10th. Also, the table is sortable.
+
 <table class="sortable" style="margin: 0px auto;">
     <tr>
         <th>Player</th>
