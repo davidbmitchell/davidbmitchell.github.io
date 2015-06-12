@@ -24,3 +24,10 @@ table, td, th {
 td {
     padding: 15px;
 }
+
+table.sortable thead {
+    background-color: #5FD3B3;
+    color: white;
+    font-weight: bold;
+    cursor: default;
+}
