@@ -292,7 +292,7 @@ After we have all the packages we need installed, we can download our play by
 play data using openWAR, and then make the open-source version of WAR. It must 
 be noted this will take a little while depending on your internet conncection.
 {% highlight r %}
-MLBAM2015 <- getData(start="04-05-2015", end="06-09-2015")
+MLBAM2015 <- getData(start="2015-04-05", end="2015-06-09")
 # make oWAR
 ds <- makeWAR(MLBAM2015)
 # tabulate oWAR
