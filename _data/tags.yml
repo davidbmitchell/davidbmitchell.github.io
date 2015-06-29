@@ -2,10 +2,16 @@
   name: Atlanta Braves
 
 - slug: R
-  name: R  
+  name: R
 
 - slug: Game Theory
   name: Game Theory
 
 - slug: openWAR
-  name: openWAR  
+  name: openWAR
+
+- slug: MLB
+  name: MLB
+
+- slug: Retrosheet
+  name: Retrosheet
