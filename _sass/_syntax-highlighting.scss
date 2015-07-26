@@ -2,7 +2,7 @@
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff;
+  background: #D3D3D3;
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
   .k     { font-weight: bold } // Keyword
@@ -62,4 +62,14 @@
   .vg    { color: #008080 } // Name.Variable.Global
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: #099 } // Literal.Number.Integer.Long
+}
+
+.highlight{
+  border: 2px solid $mainColor;
+  margin-left: 5%;
+  width: 70%;
+
+  pre{
+    padding-left: 1%;
+  }
 }
