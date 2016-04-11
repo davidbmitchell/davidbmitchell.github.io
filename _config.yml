@@ -12,5 +12,4 @@ name: "David Bailey Mitchell"
 paginate: 10
 paginate_path: "/blog/:num/"
 permalink: "/post/:title"
-relative_permalinks: true
 url: "https://davidbaileymitchell.com"
