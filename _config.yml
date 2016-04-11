@@ -11,5 +11,5 @@ markdown: kramdown
 name: "David Bailey Mitchell"
 paginate: 10
 paginate_path: "/blog/:num/"
-permalink: "/blog/:title"
+permalink: "/blog/:title.html"
 url: "https://davidbaileymitchell.com"

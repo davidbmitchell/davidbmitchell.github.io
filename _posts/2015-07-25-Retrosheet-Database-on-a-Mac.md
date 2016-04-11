@@ -3,7 +3,6 @@ layout: post
 title: "Building Retrosheet Database on a Mac"
 date: "2015-07-25"
 tags: [MLB, Retrosheet, SQL]
-permalink: /blog/2015-07-25-Retrosheet-Database-on-a-Mac
 ---
 
 Okay, this post is going to be a long one, but by the end of it, you will have
