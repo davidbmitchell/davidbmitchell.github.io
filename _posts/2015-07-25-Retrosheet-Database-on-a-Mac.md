@@ -217,7 +217,7 @@ can be loaded into the database.
 # make sure we are still in the unparsed directory
 $ cd ~/Retrosheet/unparsed
 $ x=1950 y=2014
-$ for (( i=$x; i<=$y; i++ )); do cwevent -f 0-96 -x 0-60 -y "$i" "$i"*.EV* > ~/Retrosheet/parsed/all"$i".csv; done
+$ for (( i=$x; i<=$y; i++ )); do cwevent -f 0-96 -x 0-62 -y "$i" "$i"*.EV* > ~/Retrosheet/parsed/all"$i".csv; done
 $ for (( i=$x; i<=$y; i++ )); do cwgame -f 0-83 -y "$i" "$i"*.EV* > ~/Retrosheet/parsed/games"$i".csv; done
 $ for (( i=$x; i<=$y; i++ )); do cwsub -f 0-9 -y "$i" "$i"*.EV* > ~/Retrosheet/parsed/sub"$i".csv; done
 {% endhighlight %}
